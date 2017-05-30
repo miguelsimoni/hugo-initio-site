@@ -1,4 +1,4 @@
-baseURL = "http://miguelsimoni.github.com/hugo-initio-site/"
+baseURL = "https://miguelsimoni.github.com/hugo-initio-site/"
 languageCode = "en-us"
 title = "Hugo Initio Site"
 publishDir = "docs"
