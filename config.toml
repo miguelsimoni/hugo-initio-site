@@ -2,6 +2,7 @@ baseURL = "https://miguelsimoni.github.io/hugo-initio-site/"
 languageCode = "en-us"
 title = "Initio - Free, multipurpose html5 template by GetTemplate"
 theme = "hugo-initio"
+publishDir = "docs"
 
 [params]
     name = "Anthony Russel"
