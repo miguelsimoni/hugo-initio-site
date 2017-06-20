@@ -30,6 +30,16 @@ publishDir = "docs"
     url = "/post/"
     weight = 5
 
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
 [[params.social]]
 	title = "facebook"
 	url = "https://www.facebook.com/nickname"
