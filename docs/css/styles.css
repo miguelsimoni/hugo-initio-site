@@ -386,6 +386,7 @@ img {
   text-align: center;
   font-size: 12px;
   font-size: 0.75rem;
+  margin-bottom: 40px;
 }
 .thumbnail {
   display: block;
@@ -409,7 +410,13 @@ img {
   height: 180px;
   margin: 0 0 20px;
   position: relative;
-  padding-top: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .thumbnail .img {
+    width: calc(100% + 30px);
+    height: 280px;
+    margin-left: -15px;
+  }
 }
 .thumbnail .title {
   text-transform: uppercase;
@@ -433,6 +440,11 @@ img {
   -moz-transition-duration: 550ms;
   -o-transition-duration: 550ms;
   transition-duration: 550ms;
+}
+@media only screen and (max-width: 768px) {
+  .thumbnail .cover {
+    height: 280px;
+  }
 }
 .thumbnail .cover .more {
   position: absolute;
@@ -787,7 +799,7 @@ footer.entry-meta .meta-in {
   font-size: 30px;
 }
 .follow-me-icons i {
-  float: left;
+  padding: 15px 0;
   margin: 0 10px 0 0;
 }
 /* Max page width
